@@ -1,0 +1,453 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header-bg{
+    /* background-image: url('https://images.alphacoders.com/674/674925.png'); */
+    height: 100em;
+    width: 100%;
+    background-size: cover;
+}
+
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://img.freepik.com/free-photo/tourist-sitting-phu-sub-lek-viewpoint-sunset-lopburi-thailand_335224-1390.jpg?size=626&ext=jpg&uid=R111411798&ga=GA1.1.512476540.1689777166&semt=sph') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.home-content{
+    width: 100%;
+    height: 84vh;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 55;
+}
+
+.img-1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),url(https://img.freepik.com/free-photo/people-portrait-with-plane-flying-sky_23-2149520423.jpg?size=626&ext=jpg&uid=R111411798&ga=GA1.2.512476540.1689777166&semt=sph));
+}
+
+
+
+
+
+
+.header img{
+    width: 170px;
+    float: left;
+}
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+}
+
+.header h1{
+    padding-top: 200px;
+    padding-bottom: 0px;
+    font-size: 55px;
+}
+
+.header p{
+    margin: 18px 0px;
+}
+
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+
+.form-control{
+    border: 0 !important;
+    border-radius: 30px 0 0 !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none;
+}
+.features{
+    padding: 100px 0;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37, 73,214, 0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+
+.feature-img{
+    position: relative;
+}
+
+.rating{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+
+/* ----------------------------------------Features-------------------------------------------------- */
+.features .fa{
+    font-size: 15px;
+    color: #ff5722;
+}
+
+.features-details{
+    padding: 20px;
+    text-align: justify;
+}
+
+.features-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    margin-bottom: 30px;
+}
+
+span .fa{
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+/* -------------------------------Gallery Part--------------------------------------- */
+
+.gallery1{
+    padding: 100px 0;
+    background: #efefef;
+}
+
+.gallery-box img{
+    width: 100%;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+
+.gallery-box h4{
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* -----------------------Banner---------------------------- */
+
+.banner{
+    height: 80vh;
+    background-image: url(./images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+
+.banner-highlights{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* ------------------------------User Review------------------------------------------ */
+
+.users-feedback{
+    padding: 100px 0;
+}
+
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+}
+
+.user-review p{
+    padding: 50px 10px 10px 10px;
+}
+
+.users-feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+
+/* .user-review p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #649fed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+} */
+
+/* ---------------Footer------------------------------------- */
+
+.footer{
+    padding: 100px 0;
+    background-image: linear-gradient(#bc9d7a, #bc6208);
+    color: #fff;
+}
+
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+
+.ri-heart-3-fill{
+    margin: 0 5px;
+    color: #f44336;
+}
+
+.footeer .copyright{
+    text-align: center;
+}
+
+
+/* ---------login-------- */
+
+.bg-img-login{
+    background-image: url("https://images.pexels.com/photos/2887887/pexels-photo-2887887.jpeg?auto=compress&cs=tinysrgb&w=600");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 750px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+ 
+ .login-page {
+   color: black;
+   font-weight: bold;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 80%;
+   padding: 20px;
+   text-align: center;
+ }
+ 
+ 
+ .ca-link button{
+   margin-right: 10px;
+   margin-top: 15px;
+   color: beige;
+   background-color: rgb(28, 12, 12);
+   width: 100px;
+   height: 40px;
+   border: 1px solid rgb(28, 12, 12);
+   border-radius: 6%;
+ }
+ 
+ .ca-link button:hover{
+   background-color: white;
+   color: black;
+ }
+ 
+ .login-form h3 {
+   color: rgb(59, 27, 27);
+   font-size: 30px;
+   font-weight:800px;
+ }
+ 
+ .login-form{
+   border:1px solid grey;
+   box-shadow: 2px 4px 5px grey;
+ }
+ 
+ 
+ /*--------gallery------------  */
+
+ .gallery{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    color: rgb(58, 31, 31);
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  
+  .g-img:hover{
+     box-shadow: 0px 3px 4px 8px grey;
+  }
+
+  /* ------------booknow---------------- */
+
+  /* .book{
+  background-image: url('https://images.pexels.com/photos/346808/pexels-photo-346808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  height:500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+}
+
+
+.book-details{
+  background-image: url('https://preview.colorlib.com/theme/travelers/images/hero_bg_2.jpg');
+  height: 610px;
+  width: 100%;
+  background-size: cover;
+}
+
+.book-details{
+  margin-top: 2rem;    
+  display: grid;  
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+} */
+
+/* ---------------------------book-------------------------------------- */
+
+.book{
+    color: rgb(44, 26, 26);
+  }
+
+/* .book-details form{
+    background-color: rgb(206, 201, 201);
+    width:60%;
+    height: 560px;
+  }
+  
+  .book-heading h1{
+    font-weight: bolder;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(88, 76, 76);
+  }
+     */
+  /* contact */
+
+  /* ----------------------------contact------------------------------------------- */
+
+.contact{
+    height: 520px; 
+    width:100% ;
+    background-image: linear-gradient(to bottom right,skyblue,violet);
+  }
+  
+  .contact button{
+    align-items: center; 
+    justify-content: center; 
+    display: flex;   
+    background-image:linear-gradient(to top left,black ,grey); 
+    margin-left: 9em;
+  }
+  
+  
+  .icon a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin: 4px 20px;
+  }
+  
+  .icon i:hover{
+    color:orangered;
+  }
+  
